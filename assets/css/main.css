@@ -1,0 +1,20 @@
+.container {
+  text-align: center;
+}
+.racer_table {
+  display: inline-block;
+}
+
+.racer_table td {
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+}
+
+.racer_table td.active {
+  background-color: gray;
+}
